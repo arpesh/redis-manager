@@ -1,5 +1,5 @@
 {
-    "name": "arpesh/redis-manager",
+    "name": "encore/redis-manager",
     "description": "Redis manager for laravel",
     "type": "library",
     "keywords": ["laravel", "redis", "manager"],
@@ -23,13 +23,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Arpesh\\RedisManager\\": "src/"
+            "Encore\\RedisManager\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Arpesh\\RedisManager\\RedisManagerServiceProvider"
+                "Encore\\RedisManager\\RedisManagerServiceProvider"
             ]
 
         }
